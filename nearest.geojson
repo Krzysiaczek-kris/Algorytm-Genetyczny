@@ -1,5 +1,6 @@
 {
 "type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "id": 488395425, "distance": 17.085090325623639 }, "geometry": { "type": "Point", "coordinates": [ 19.9090584, 50.0161726 ] } },
 { "type": "Feature", "properties": { "id": 490986192, "distance": 12.124305662539385 }, "geometry": { "type": "Point", "coordinates": [ 19.9387072, 50.0653243 ] } },
@@ -41,7 +42,6 @@
 { "type": "Feature", "properties": { "id": 2453097259, "distance": 25.527925101834917 }, "geometry": { "type": "Point", "coordinates": [ 19.9809116, 50.0189614 ] } },
 { "type": "Feature", "properties": { "id": 2482364654, "distance": 19.170982405429488 }, "geometry": { "type": "Point", "coordinates": [ 19.9604062, 50.0553686 ] } },
 { "type": "Feature", "properties": { "id": 2556890767, "distance": 20.886133423702425 }, "geometry": { "type": "Point", "coordinates": [ 19.932544, 50.0953681 ] } },
-{ "type": "Feature", "properties": { "id": 2598904066, "distance": 13.277798077843439 }, "geometry": { "type": "Point", "coordinates": [ 19.9602972, 50.0882217 ] } },
 { "type": "Feature", "properties": { "id": 2611470248, "distance": 14.877536769675794 }, "geometry": { "type": "Point", "coordinates": [ 19.9362811, 50.0714051 ] } },
 { "type": "Feature", "properties": { "id": 2624917134, "distance": 15.014663818134109 }, "geometry": { "type": "Point", "coordinates": [ 19.9206781, 50.0699169 ] } },
 { "type": "Feature", "properties": { "id": 2649478708, "distance": 25.770866349880048 }, "geometry": { "type": "Point", "coordinates": [ 19.994157, 50.035637 ] } },
@@ -325,8 +325,6 @@
 { "type": "Feature", "properties": { "id": 10680338905, "distance": 18.091109697534712 }, "geometry": { "type": "Point", "coordinates": [ 19.9026424, 50.0792222 ] } },
 { "type": "Feature", "properties": { "id": 10680338906, "distance": 20.627786461492104 }, "geometry": { "type": "Point", "coordinates": [ 19.9036077, 50.0857419 ] } },
 { "type": "Feature", "properties": { "id": 10697790005, "distance": 11.232213232615853 }, "geometry": { "type": "Point", "coordinates": [ 19.9755669, 50.0729306 ] } },
-{ "type": "Feature", "properties": { "id": 10699842909, "distance": 16.387397500255979 }, "geometry": { "type": "Point", "coordinates": [ 19.895754, 50.0317215 ] } },
-{ "type": "Feature", "properties": { "id": 10700520699, "distance": 22.51494239134092 }, "geometry": { "type": "Point", "coordinates": [ 19.9247081, 50.0832513 ] } },
 { "type": "Feature", "properties": { "id": 10750567107, "distance": 19.579828041350734 }, "geometry": { "type": "Point", "coordinates": [ 19.9602681, 50.0485726 ] } },
 { "type": "Feature", "properties": { "id": 10750981312, "distance": 41.136445569673299 }, "geometry": { "type": "Point", "coordinates": [ 19.9337374, 50.0331635 ] } },
 { "type": "Feature", "properties": { "id": 10760084709, "distance": 18.437359616055701 }, "geometry": { "type": "Point", "coordinates": [ 20.0430898, 50.070757 ] } },
